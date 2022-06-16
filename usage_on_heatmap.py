@@ -48,7 +48,7 @@ def applyOpticalFlow(heatMap, frame, prevImg):
 if __name__ == "__main__":
     args = parser.parse_args()
 
-    model = NN.FocusNN3()
+    model = NN.FocusNN()
     model = NN.load_model("./weights/model_focus3.ckpt", model)
 
     capture = None

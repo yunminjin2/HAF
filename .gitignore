@@ -1937,3 +1937,4 @@ third_train_data/img/00710.jpg
 third_train_data/img/00711.jpg
 third_train_data/img/00712.jpg
 third_train_data/label.json
+weights/model3.ckpt
